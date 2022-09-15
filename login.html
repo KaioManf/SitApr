@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="page">
+
+        <nav class="navbar">
+            <div class="logo"> <a href="./homepage.html"> <img height="30px" src="./img/onlytext.png"
+                        alt="Logo do Site"> </a>
+            </div>
+            <ul class="nav-links">
+                <div class="menu">
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="register.html">Cadastre-se</a></li>
+                    <li><a href="carrinho.html"> <img height="30px" src="./img/carrinhoCompras.png"
+                                alt="Imagem de um Carrinho de Compras"> </a></li>
+                </div>
+            </ul>
+        </nav>
+
+        <form>
+            <header>
+                <h1>Área de Login</h1>
+            </header>
+
+            <div class="bodypage">
+                <div class="fieldset-wrapper">
+                    
+                    <div class="input-wrapper">
+                        <label for="em">Email</label>
+                        <input type="email" required id="em">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="senha">Senha</label>
+                        <input type="password" minlength="8" required id="senha">
+                    </div>
+                    <p>Ainda não possui conta? <a href="./register.html">Cadastre-se</a> </p>
+                </div>
+
+                <footer>
+                    <a href="./homepage.html">
+                        <input class="button" type="submit" form="my-form" value="Logar">
+                    </a>
+                </footer>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="carrinho.css">
+    <title>Carrinho de Compras</title>
+</head>
+
+<body>
+    <div class="page">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="./homepage.html"> <img height="30px" src="./img/onlytext.png" alt="Logo do Site"> </a>
+            </div>
+            <div class="search">
+                <div id="divBusca">
+                    <input type="text" id="txtBusca" placeholder="Buscar..." />
+                    <img height="25px" src="./img/search.png" alt="Buscar..." />
+                </div>
+                <img id="filtro" height="25px" src="./img/filter.png" alt="Filtro de Pesquisa">
+            </div>
+            <ul class="nav-links">
+                <div class="menu">
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="register.html">Cadastre-se</a></li>
+                    <li><a href="carrinho.html"> <img height="30px" src="./img/carrinhoCompras.png"
+                                alt="Imagem de um Carrinho de Compras"> </a></li>
+                </div>
+            </ul>
+        </nav>
+
+        <main>
+            <h1 id="title">Carrinho de Compras</h1>
+            <div id="qwerty">
+                <div>
+                    <div class="carrinho">
+                        <img height="250px" src="./img/Produtos/produto1.webp">
+                        <div class="especs">
+                            <h1 id="tec">Teclado Gamer</h1>
+                            <p>R$499,00</p>
+                        </div>
+                        <div class="demais">
+                            <img height="30px" src="./img/LessCar.png">
+                            <h1> 1 </h1>
+                            <img height="30px" src="./img/MoreCar.png">
+                            <img height="30px" src="./img/Trash.png">
+                        </div>
+                    </div>
+
+                    <div class="carrinho">
+                        <img height="250px" src="./img/Produtos/mouseGamer.jpg">
+                        <div class="especs">
+                            <h1 id="tec">Mouse Gamer</h1>
+                            <p>R$139,00</p>
+                        </div>
+                        <div id="demais">
+                            <img height="30px" src="./img/LessCar.png">
+                            <h1> 1 </h1>
+                            <img height="30px" src="./img/MoreCar.png">
+                            <img height="30px" src="./img/Trash.png">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="precoTotal">
+                    <h1>Valor Total</h1>
+                    <p>SubTotal: R$638,00</p>
+                    <p>Frete: R$15,00</p>
+                    <p id="padd">Total: R$653,00</p>
+                    <div id="finaldiv">
+                        <a href="./homepage.html"><button id="butt1">Ver Mais Produtos</button></a>
+                        <a href="./homepage.html"><button>Continuar</button></a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>

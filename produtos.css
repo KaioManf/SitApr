@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: rgb(180, 243, 243);
+    border-bottom: solid 2px black;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.nav-links a {
+    color: black;
+}
+
+.menu {
+    display: flex;
+    font-family: cursive;
+    gap: 1em;
+    font-size: 1.8rem;
+}
+
+.menu li:hover {
+    background-color: #4c9e9e;
+    border-radius: 0.5rem;
+}
+
+.menu li {
+    padding: 0.5rem 2rem;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+#divBusca {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 5px;
+    background-color: #E0EEEE;
+    border: solid 2px #5F9EA0;
+    border-radius: 10px;
+    width: 500px;
+    height: 32px;
+}
+
+#txtBusca {
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 465px;
+}
+
+main {
+    display: flex;
+}
+
+.produto {
+    display: grid;
+    padding: 10rem 18rem 10rem 25rem;
+}
+
+.produto img {
+    border: 2px solid black;
+    padding: 3rem 3rem;
+}
+
+.paletaDeImagens {
+    display: flex;
+    padding: 2.5rem;
+}
+
+.images img {
+    height: 95px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+
+.images {
+    padding: 1.2rem;
+    border-radius: 10px;
+}
+
+main .espec h1 {
+    padding-top: 11rem;
+    text-align: center;
+    font-size: 2.5rem;
+    width: 75rem;
+}
+
+main .espec #preco {
+    padding-top: 5rem;
+    font-size: 2.2rem;
+}
+
+main .espec .avaliacao {
+    padding-top: 2rem;
+}
+
+main .espec .avaliacao p {
+    font-size: 1.3rem;
+    display: inline;
+}
+
+main .espec #infos {
+    padding-top: 3rem;
+    font-size: 1.5rem;
+}
+
+main .espec ul li {
+    padding-top: 2rem;
+    font-size: 1.2rem;
+}
+
+main .espec ul {
+    padding-bottom: 5rem;
+}
+
+main .espec .favoritar {
+    position: absolute;
+    text-align: center;
+    padding-top: 6.8rem;
+    right: 25rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+span {
+    color: blue;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer button {
+    margin-left: 75rem;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+    text-shadow: 1px 1px 0px #7CACDE;
+    box-shadow: 2px 1px 1px #BEE2F9;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: 2px solid #3866A3;
+    background: #63B8EE;
+    background: linear-gradient(to top, #63B8EE, #468CCF);
+}
+
+button:hover {
+    font-weight: bold;
+    color: #14396A;
+    background: #468CCF;
+    background: linear-gradient(to top, #468CCF, #63B8EE);
+}

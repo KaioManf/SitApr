@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+    <title>Usuário Cadastrado</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            font-size: 62.5%;
+        }
+
+        body {
+            text-align: center;
+            font-family: cursive;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1rem;
+            background-color: rgb(180, 243, 243);
+            border-bottom: solid 2px black;
+        }
+
+        .nav-links a {
+            color: black;
+        }
+
+        .menu {
+            display: flex;
+            gap: 1em;
+            font-size: 1.8rem;
+        }
+
+        .menu li:hover {
+            background-color: #4c9e9e;
+            border-radius: 0.5rem;
+        }
+
+        .menu li {
+            padding: 0.5rem 2rem;
+        }
+
+        .search {
+            display: flex;
+            align-items: center;
+        }
+
+        #divBusca {
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            padding-right: 5px;
+            background-color: #E0EEEE;
+            border: solid 2px #5F9EA0;
+            border-radius: 10px;
+            width: 500px;
+            height: 32px;
+        }
+
+        #txtBusca {
+            float: left;
+            background-color: transparent;
+            padding-left: 5px;
+            font-size: 18px;
+            border: none;
+            height: 32px;
+            width: 465px;
+        }
+
+        h1 {
+            font-family: 'Comic Neue', cursive;
+            margin-top: 10rem;
+            font-size: 5rem;
+        }
+
+        button {
+            margin-top: 10rem;
+            background-color: black;
+            border-radius: 0.8rem;
+            display: inline-block;
+            cursor: pointer;
+            color: #ffffff;
+            font-family: Arial;
+            font-size: 2rem;
+            padding: 0.8rem 1.8rem;
+            text-decoration: none;
+        }
+
+        button:hover {
+            background: linear-gradient(to bottom, rgb(94, 94, 94) 5%, rgb(94, 94, 94) 100%);
+            background-color: black;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="./homepage.html"> <img height="30px" src="./img/onlytext.png" alt="Logo do Site"> </a>
+        </div>
+        <div class="search">
+            <div id="divBusca">
+                <input type="text" id="txtBusca" placeholder="Buscar..." />
+                <img height="25px" src="./img/search.png" alt="Buscar..." />
+            </div>
+            <img id="filtro" height="25px" src="./img/filter.png" alt="Filtro de Pesquisa">
+        </div>
+        <ul class="nav-links">
+            <div class="menu">
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Cadastre-se</a></li>
+                <li><a href="carrinho.html"> <img height="30px" src="./img/carrinhoCompras.png"
+                            alt="Imagem de um Carrinho de Compras"> </a></li>
+            </div>
+        </ul>
+    </nav>
+
+    <h1>Usuário Cadastrado com Sucesso!</h1>
+    <a href="./homepage.html"><button>Voltar à Página Inicial</button></a>
+</body>
+
+</html>

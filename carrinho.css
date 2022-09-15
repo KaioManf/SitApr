@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: rgb(180, 243, 243);
+    border-bottom: solid 2px black;
+    font-family: cursive;
+}
+
+.nav-links a {
+    color: black;
+}
+
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 1.8rem;
+}
+
+.menu li:hover {
+    background-color: #4c9e9e;
+    border-radius: 0.5rem;
+}
+
+.menu li {
+    padding: 0.5rem 2rem;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+#divBusca {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 5px;
+    background-color: #E0EEEE;
+    border: solid 2px #5F9EA0;
+    border-radius: 10px;
+    width: 500px;
+    height: 32px;
+}
+
+#txtBusca {
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 465px;
+}
+
+main #title {
+    padding-top: 2rem;
+    font-size: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+main {
+    padding-left: 5rem;
+    display: grid;
+}
+
+main .carrinho {
+    display: flex;
+    width: 140rem;
+    border: 2px solid black;
+}
+
+main .carrinho #tec {
+    padding: 7rem 0rem 3rem 3.5rem;
+}
+
+main .carrinho p {
+    font-size: 1.7rem;
+    padding-left: 3rem;
+}
+
+main .demais {
+    display: flex;
+    align-items: center;
+    padding-left: 50rem;
+}
+
+main .demais img {
+    cursor: pointer;
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+main #demais {
+    display: flex;
+    align-items: center;
+    padding-left: 76.3rem;
+}
+
+main #demais img {
+    cursor: pointer;
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+.precoTotal {
+    border: 2px solid black;
+    width: 25rem;
+}
+
+.precoTotal h1 {
+    padding-top: 3rem;
+    padding-left: 3rem;
+    font-size: 3rem;
+}
+
+.precoTotal p {
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 3rem;
+    font-size: 1.8rem;
+}
+
+.precoTotal button {
+    background-color: #405cf5;
+    color: white;
+    border-radius: .6rem;
+    height: 4.4rem;
+    margin: 1.2rem 2.2rem 0;
+    width: 80%;
+    cursor: pointer;
+}
+
+.precoTotal #finaldiv{
+    padding-top: 10rem;
+}
+
+#qwerty {
+    display: flex;
+    gap: 5rem;
+}
