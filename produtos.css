@@ -9,11 +9,16 @@
 }
 
 body {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #48435c;
 }
 
 a {
     text-decoration: none;
+}
+
+li {
+    list-style: none;
 }
 
 .navbar {
@@ -21,27 +26,22 @@ a {
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
-    background-color: rgb(180, 243, 243);
-    border-bottom: solid 2px black;
-}
-
-.navbar li {
-    list-style: none;
+    background-color: #3a344d;
+    font-family: cursive;
 }
 
 .nav-links a {
-    color: black;
+    color: white;
 }
 
 .menu {
     display: flex;
-    font-family: cursive;
     gap: 1em;
     font-size: 1.8rem;
 }
 
 .menu li:hover {
-    background-color: #4c9e9e;
+    background-color: #655d809a;
     border-radius: 0.5rem;
 }
 
@@ -67,6 +67,7 @@ a {
 }
 
 #txtBusca {
+    float: left;
     background-color: transparent;
     padding-left: 5px;
     font-size: 18px;
@@ -85,7 +86,7 @@ main {
 }
 
 .produto img {
-    border: 2px solid black;
+    background-color: white;
     padding: 3rem 3rem;
 }
 
@@ -97,7 +98,6 @@ main {
 .images img {
     height: 95px;
     width: 100px;
-    border: 2px solid black;
     border-radius: 1rem;
 }
 
@@ -111,10 +111,12 @@ main .espec h1 {
     text-align: center;
     font-size: 2.5rem;
     width: 75rem;
+    color: white;
 }
 
 main .espec #preco {
     padding-top: 5rem;
+    color: rgb(229, 229, 247); 
     font-size: 2.2rem;
 }
 
@@ -127,14 +129,20 @@ main .espec .avaliacao p {
     display: inline;
 }
 
+main .espec .favoritar p{
+    color: white;
+}
+
 main .espec #infos {
+    color: white;
     padding-top: 3rem;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 main .espec ul li {
     padding-top: 2rem;
-    font-size: 1.2rem;
+    color: white;
+    font-size: 1.5em;
 }
 
 main .espec ul {
@@ -151,7 +159,7 @@ main .espec .favoritar {
 }
 
 span {
-    color: blue;
+    color: rgb(229, 229, 247);
 }
 
 footer {
