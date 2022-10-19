@@ -15,6 +15,7 @@ body {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 li {
@@ -47,6 +48,7 @@ li {
 
 .menu li {
     padding: 0.5rem 2rem;
+    font-size: 2rem;
 }
 
 .search {
@@ -60,7 +62,6 @@ li {
     justify-content: end;
     padding-right: 5px;
     background-color: #E0EEEE;
-    border: solid 2px #5F9EA0;
     border-radius: 10px;
     width: 500px;
     height: 32px;
@@ -81,7 +82,7 @@ header h1 {
     font-style: normal;
     font-weight: 400;
     font-size: 4.8rem;
-    color: #c3c0cf;
+    color: #dcd9e9;
     line-height: 6rem;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
@@ -106,7 +107,6 @@ form {
     display: flex;
     flex-direction: column;
     gap: 24px;
-
 }
 
 .input-wrapper {
@@ -119,16 +119,15 @@ form {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 40rem;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     line-height: 2.4rem;
     margin-bottom: 0.8rem;
-    color: #4E4958;
+    color: #dcd9e9;
     padding-left: 1rem;
 }
 
 .input-wrapper input {
-    background: #ffffff;
-    border: 0.1rem solid #E6E6F0;
+    background: #dcd9e9;
     border-radius: 0.8rem;
     height: 5.6rem;
     width: 62.2rem;
@@ -167,6 +166,6 @@ input:invalid {
 
 .fieldset-wrapper p {
     font-size: 1.3rem;
-    padding-left: 100rem;
+    padding-left: 97.5rem;
     color: #c3c0cf;
 }

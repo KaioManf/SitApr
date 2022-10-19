@@ -19,6 +19,7 @@ a {
 
 li {
     list-style: none;
+    font-size: 2rem;
 }
 
 .navbar {
@@ -60,7 +61,6 @@ li {
     justify-content: end;
     padding-right: 5px;
     background-color: #E0EEEE;
-    border: solid 2px #5F9EA0;
     border-radius: 10px;
     width: 500px;
     height: 32px;
@@ -110,6 +110,41 @@ li {
 .card #produto2{
     width: 150px;
     padding-top: 4rem;
+}
+
+.card #produto3{
+    width: 150px;
+    padding-top: 4rem;
+}
+
+.card #produto4{
+    width: 90px;
+    padding-top: 4rem;
+}
+
+.card #produto5{
+    width: 125px;
+    padding-top: 4rem;
+}
+
+.card #produto6{
+    width: 200px;
+    padding-top: 4rem;
+}
+
+.card #produto7{
+    width: 200px;
+    padding-top: 4rem;
+}
+
+.card #produto8{
+    width: 200px;
+    padding-top: 4rem;
+}
+
+.card #price {
+    color: blue;
+    font-size: 2.5rem;
 }
 
 .card #more {

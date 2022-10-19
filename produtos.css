@@ -60,7 +60,6 @@ li {
     justify-content: end;
     padding-right: 5px;
     background-color: #E0EEEE;
-    border: solid 2px #5F9EA0;
     border-radius: 10px;
     width: 500px;
     height: 32px;
@@ -82,10 +81,10 @@ main {
 
 .produto {
     display: grid;
-    padding: 10rem 18rem 10rem 25rem;
+    padding: 10rem 8rem 10rem 18rem;
 }
 
-.produto img {
+.produto .babab img {
     background-color: white;
     padding: 3rem 3rem;
 }
@@ -106,6 +105,10 @@ main {
     border-radius: 10px;
 }
 
+.produto .paletaDeImagens #test {
+    padding-bottom: 10rem;
+}
+
 main .espec h1 {
     padding-top: 11rem;
     text-align: center;
@@ -118,19 +121,6 @@ main .espec #preco {
     padding-top: 5rem;
     color: rgb(229, 229, 247); 
     font-size: 2.2rem;
-}
-
-main .espec .avaliacao {
-    padding-top: 2rem;
-}
-
-main .espec .avaliacao p {
-    font-size: 1.3rem;
-    display: inline;
-}
-
-main .espec .favoritar p{
-    color: white;
 }
 
 main .espec #infos {
@@ -150,41 +140,71 @@ main .espec ul {
 }
 
 main .espec .favoritar {
-    position: absolute;
-    text-align: center;
-    padding-top: 6.8rem;
-    right: 25rem;
+    padding-top: 5rem;
     font-size: 1.2rem;
     cursor: pointer;
 }
 
-span {
-    color: rgb(229, 229, 247);
+main .espec .favoritar p{
+    color: white;
+    font-size: 2rem;
+}
+
+main .produto .avaliations {
+    background-color: #67627e;
+    padding: 0rem 5rem 3rem 0rem;
+}
+
+main .produto .avaliations h1 {
+    text-align: center;
+    font-size: 5rem;
+    color: whitesmoke;
+    padding-top: 3.5rem;
+    padding-bottom: 6rem;
+}
+
+main .produto .avaliations .av1 {
+    padding-left: 3rem;
+}
+
+main .produto .avaliations .av1 h2 {
+    font-size: 2.3rem;
+    color: whitesmoke;
+    padding-bottom: 2rem;
+}
+
+main .produto .avaliations .av1 p {
+    font-size: 2rem;
+    color: whitesmoke;
+    padding-bottom: 4rem;
+}
+
+main .produto .avaliations .av1 .img img {
+width: 35px;
+}
+
+main .produto .avaliations .av1 .img{
+    padding-bottom: 2rem;
 }
 
 footer {
     display: flex;
     justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 footer button {
-    margin-left: 75rem;
     cursor: pointer;
     font-weight: bold;
     color: white;
     font-size: 14px;
-    text-shadow: 1px 1px 0px #7CACDE;
-    box-shadow: 2px 1px 1px #BEE2F9;
-    padding: 10px 25px;
+    padding: 20px;
     border-radius: 10px;
-    border: 2px solid #3866A3;
-    background: #63B8EE;
-    background: linear-gradient(to top, #63B8EE, #468CCF);
+    font-size: 1.5rem;
+    background: linear-gradient(to top, #3f375c, #3f375c);
 }
 
 button:hover {
-    font-weight: bold;
-    color: #14396A;
-    background: #468CCF;
-    background: linear-gradient(to top, #468CCF, #63B8EE);
+    background: linear-gradient(to top, #787586, #787586);
 }
